@@ -14,18 +14,18 @@
 ### Then run</br>
 
 ```
-Java imageSegementation basename_of_foreground base_name_of_background mode1
+Java imageSegementation  basename_of_foreground  base_name_of_background  mode1
 ```
 
  or
  
 ``` 
-Java imageSegementation basename_of_background_subtraction base_name_of_background mode0
+Java imageSegementation  basename_of_background_subtraction  base_name_of_background  mode0
 ```
-#### **** mode 0 is used to extract objects from green screen video </br>
-#### **** while mode 1 is used to extract objects from a real world video </br>
+mode 0 is used to extract objects from green screen video </br>
+while mode 1 is used to extract objects from a real world video </br>
 #### **** Note that basename should include the path to the file</br>
-#### **** (futher explantion see below section "Basename explanation")</br>
+#### **** (futher explantion please refer to the below section "Basename explanation")</br>
 
 To make it easier to understand, we can plot it as a flow chart
 ```mermaid
@@ -37,7 +37,7 @@ graph LR;
     background-->output_video;
 ```
 ## Use sample input to test
-You can find these files in the corresponding repository</br>
+You can find these sample input files in the corresponding repository</br>
 You can also try out any video you like</br></br>
 ### Basename explanation
 For the command line you have to type in the basename of the frames including its path</br>
